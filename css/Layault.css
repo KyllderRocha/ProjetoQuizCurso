@@ -1,4 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-size: large;
+}
+.title, .copyright{
+    background-image: radial-gradient(ellipse at center, #19882c 1%, #025310 100%);
+    color: white;
+    text-align: center;
+}
+.title_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_title{
+    
+}
+.icon_img{
+
+}
 .icon{
     width: 60px;
     height: 60px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(142deg) brightness(102%) contrast(102%);
 }
+.copyright {
+    text-align: center;
+    font-size: smaller;
+}
+
