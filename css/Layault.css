@@ -16,19 +16,36 @@ body {
     justify-content: center;
     align-items: center;
 }
-.header_title{
-    
-}
-.icon_img{
 
-}
 .icon{
     width: 60px;
     height: 60px;
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(142deg) brightness(102%) contrast(102%);
 }
 .copyright {
+    height: 5vh;
     text-align: center;
     font-size: smaller;
+    justify-content: center;
+}
+.authors p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.authors{
+    display: flex;
+    justify-content: center;
+    
+}
+.send_it{
+    color:white;
+    border: none;
+    background-color: #19882c;
+    text-transform: uppercase;
+    height: 30px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
 }
 

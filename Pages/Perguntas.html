@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Quiz</title>
     <link href="../css/Layault.css" rel="stylesheet">
+    <link href="../css/Perguntas.css" rel="stylesheet">
     <script src="../js/Pergunta.js"></script>
 </head>
 <body>
@@ -13,26 +14,27 @@
                 <img src="../src/quiz.svg" class="icon"/>
             </div>
             <div class="header_title">
-                <h1>Quiz Curso IFPE Garanhuns</h1>
+                <h1>Curso IFPE Garanhuns</h1>
             </div>
         </div>
     </header>
-    <section>
+    <section class="data">
         <form action="get" id="form1" >
             <label for="Nome">Nome:</label>
-            <input type="text" name="Nome" id="Nome" placeholder="Nome">
+            <input class="input" type="text" name="Nome" id="Nome" placeholder="Nome">
             <label for="Email">Email:</label>
-            <input type="email" name="Email" id="Email" placeholder="Email">
+            <input class="input" type="email" name="Email" id="Email" placeholder="Email">
             <br>
         </form>
-        <button onclick="salvar()">Enviar</button>
+        <div class="button_submit">
+            <button class="send_it" onclick="salvar()">Enviar</button>
+        </div>
         <!-- <button onclick="location.href = 'Perguntas2.html'">Próxima Página</button> -->
     </section>
     <footer class="copyright">
         <div class="authors">
-            <p>&copy; Kyllder and Thiago Social Midia</p>
-            <a href="https://kyllderrocha.github.io/Site-Pessoal/"></a>
-            <a href="https://thsmmil.github.io/"></a>
+            <p>&copy; <a href="https://kyllderrocha.github.io/Site-Pessoal/">Kyllder</a> and <a href="https://thsmmil.github.io/">Thiago</a> Social Midia</p>
+
         </div>
     </footer>
 </body>

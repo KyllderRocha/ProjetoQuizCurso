@@ -1,0 +1,18 @@
+.data{
+    margin: 0.5vmin;
+    padding: 0.5vmin;
+}
+.button_submit{
+    margin-top: 6px;
+    padding-top: 6px;
+}
+.send_it{
+    
+}
+.input{
+    margin-bottom: 10px;
+    background-color: rgb(235, 232, 232);
+    border: 1px solid lightslategray;
+    height: 30px;
+    border-radius: 6px;
+}

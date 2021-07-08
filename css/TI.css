@@ -1,0 +1,22 @@
+.comment{
+    display: flex;
+    
+}
+.text{
+    text-align: justify;
+}
+.pages{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+.curso{
+    margin-left: 0.5vmin;
+    padding-left: 0.5vmin;
+    margin-right: 30%;
+}

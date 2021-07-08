@@ -1,6 +1,6 @@
 perguntas = [
     {
-    "pergunta": "Você tem bom um raciocínio lógico",
+    "pergunta": "Você tem bom um raciocínio lógico?",
     "curso": "TI",
     "id":1,
     "resposta":""
@@ -66,7 +66,7 @@ perguntas = [
     "resposta":""
     },
     {
-    "pergunta": "Conhece a grade curricular do curso?",
+    "pergunta": "Conhece a grade curricular do curso de Meio Ambiente?",
     "curso": "TMA",
     "id":12,
     "resposta":""
@@ -150,7 +150,7 @@ perguntas = [
     "resposta":""
     },
     {
-    "pergunta": "Qual o seu nível de aprendizado em cálculos?",
+    "pergunta": "Gosta da área  de cálculos?",
     "curso": "TEE",
     "id":26,
     "resposta":""
