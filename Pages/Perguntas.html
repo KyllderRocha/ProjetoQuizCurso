@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Quiz</title>
     <link href="../css/Layault.css" rel="stylesheet">
+    <script src="../js/Pergunta.js"></script>
 </head>
 <body>
     <header>
@@ -12,9 +13,15 @@
         <h2>Perguntas</h2>
     </header>
     <section>
-        <form action="Resultado.html" method="get">
-            <button type="submit">Enviar</button>
+        <form action="get" id="form1" >
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome" id="Nome" placeholder="Nome">
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Email">
+            <br>
         </form>
+        <button onclick="salvar()">Enviar</button>
+        <!-- <button onclick="location.href = 'Perguntas2.html'">Próxima Página</button> -->
     </section>
     <footer>
         <p>&copy; Kyllder and Thiago Social Midia</p>
