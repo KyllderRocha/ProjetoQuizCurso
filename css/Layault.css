@@ -18,11 +18,13 @@ body {
 }
 
 .icon{
+    margin-top: 18px;
     width: 60px;
     height: 60px;
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(142deg) brightness(102%) contrast(102%);
 }
 .copyright {
+    display: flex;
     height: 5vh;
     text-align: center;
     font-size: smaller;
@@ -33,8 +35,9 @@ body {
     padding-bottom: 0px;
 }
 .authors{
-    display: flex;
+    
     justify-content: center;
+    align-self: center;
     
 }
 .send_it{
@@ -47,5 +50,5 @@ body {
     font-weight: 700;
     margin-bottom: 13px;
 }
-}
+
 
