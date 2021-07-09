@@ -33,6 +33,11 @@ section{
     font-size: smaller;
     justify-content: center;
 }
+.copyright a{
+    text-decoration: none;
+    color: #f6ff67;
+    font-weight: bold;
+}
 .authors p {
     margin-bottom: 0px;
     padding-bottom: 0px;
