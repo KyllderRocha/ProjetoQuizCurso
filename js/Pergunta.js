@@ -269,6 +269,20 @@ function calcular(){
 }
 function salvar(){
     salvarPerguntas();
+    if(nome == "" || email == ""){
+        alert("Nome ou Email Inválido!")
+        return
+    }
+    var semResp = false;
+    perguntas.forEach(element => {
+        if(element.resposta == ""){
+            semResp = true;
+        }
+    });
+    if(semResp){
+        alert("Perguntas sem respostas!")
+        return
+    }
     let result = calcular()
     window.location = "Resultado.html?nome="+nome+"&email="+email+"&curso="+result["curso"]+"&porcentagem="+result["porcentagem"];
 }

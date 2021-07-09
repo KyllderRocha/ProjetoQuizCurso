@@ -1,5 +1,8 @@
 .comment{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
 .text{
@@ -8,14 +11,24 @@
 .pages{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 .img{
     margin-left: 0px;
     margin-right: 5px;
     margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
+img{
+    width: 60%;
+    height: 60%;
+}
+
 .curso{
     margin-left: 0.5vmin;
     padding-left: 0.5vmin;
-    margin-right: 30%;
 }
