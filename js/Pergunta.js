@@ -127,7 +127,7 @@ function makeRequest() {
       return false;
     }
     httpRequest.onreadystatechange = alertContents;
-    httpRequest.open('GET', "http://localhost:3000/perguntas");
+    httpRequest.open('GET', "https://my-json-server.typicode.com/thsmmil/restapiQuizCurso/perguntas");
     httpRequest.send();
   }
 
